@@ -1,0 +1,35 @@
+body{
+	background-image: #d2d2c0 url('img/fundo.png');
+}
+#menu{
+	background-color: #c5c5b2
+	border-width: 1px;
+	padding: 15px;
+}
+a{
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+}
+#rodape{
+	text-align: center;
+	font-weight: bold;
+	font-position: center;
+
+}
+.titulo{
+	color: #828271;
+	font-size: 1.2em;
+}
+.texto{
+	background-color: white;
+}
+.texto1{
+	margin: 0px 20px;
+}
+.fotos{
+	border-style: solid;
+	border-color:  #d2d2c0;
+	border-width: 10px 7.5px;
+
+}
