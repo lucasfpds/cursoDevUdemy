@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+
+	<script >
+
+		/*
+
+		var data = new Date();
+
+		document.write(data.getDate() + ' / ');
+		document.write(data.getMonth() + 1 + ' / ');
+		document.write(data.getFullYear() );
+
+		document.write('<br />')
+		document.write('<hr />')
+
+		document.write(data.toString());
+
+		document.write('<br />')
+		document.write('<hr />')
+
+		data.setDate(data.getDate() + 1);
+
+		document.write(data.toString());
+
+		document.write('<hr />')
+		document.write('<br />')
+
+		data.setMonth(data.getMonth() + 1);
+
+		document.write(data.toString());
+
+		document.write('<br />')
+		document.write('<hr />')
+
+		data.setFullYear(data.getFullYear() + 1);
+
+		document.write(data.toString());
+
+		*/
+
+		// 15/01/2021
+		var data1 = new Date(2021, 0, 15)
+
+
+		//23/02/2021
+		var data2 = new Date(2021, 1, 23)
+
+		document.write(data1.toString())
+
+		document.write('<hr />')
+
+		document.write(data2.toString())
+
+
+		document.write('<br /><br /><hr />')
+
+		document.write(data1.getTime())		
+		document.write('<hr />')
+		document.write(data2.getTime())
+
+		// Data de início da linguagem 01 de Janeiro de 1970 até o getTime.
+
+		// Encontrar a qtde de milissegundos entre data1 e data2
+
+
+		document.write('<br /><br /><hr />')
+
+
+		var milissegundos_entre_datas = (Math.abs(data1.getTime() - data2.getTime()))
+
+		// 1 dia tem 24 horas, cada hora 60 minutos, cada minuto 60 segundos, e cada segundo 1000 milisegundos.
+
+
+		document.write('<br /><br /><hr />')
+
+		var milisegundos_por_dia = (1*24*60*60*1000)
+
+		document.write('1 dia tem: ' + milisegundos_por_dia + ' milisegundos')
+
+		document.write('<br /><br /><hr />')
+
+		document.write('A diferença entre data1 e data2 é de ' + Math.ceil(milissegundos_entre_datas / milisegundos_por_dia) + ' .')
+
+
+
+
+
+
+
+
+
+
+
+		document.write('<br /><br /><hr />')
+		document.write('<hr />')
+
+
+		
+
+	</script>
+
+</head>
+<body>
+
+	<h1></h1>
+
+
+<script ></script>
+</body>
+</html>
