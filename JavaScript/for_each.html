@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+
+	<script >
+
+
+		var lista_convidados = ['jorge', 'jamilton', 'maria', 'ana', 'jose'];
+
+		console.log(lista_convidados);
+		document.write('<hr />')
+		document.write(lista_convidados[3]);
+
+
+		lista_convidados.forEach(function (valor, indice, array) {
+
+		console.log('indice' + indice + ' | valor: ' + valor );
+
+		if ( valor === 'ana') {
+			array[indice] = 'um novo valor'
+		}
+		});
+
+
+		console.log(lista_convidados);
+		document.write('<hr />')
+		document.write(lista_convidados[3]);
+
+
+
+
+		document.write('<br /><br /><hr />')
+		document.write('<hr />')
+	</script>
+
+</head>
+<body>
+
+	<h1></h1>
+
+
+<script >
+	
+	
+</script>
+</body>
+</html>
+<!-- -->

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+
+	<script >
+
+
+		function on(cor) {
+			document.getElementById('caixa').style.backgroundColor = cor;
+		};
+/*
+		function off() {
+			var caracteres = 0
+			document.getElementById('caixa')
+
+		}*/
+
+		var caracteres = '';
+
+		function contador () {
+			var caracteres = document.getElementById('caixa').value;
+			
+			if (caracteres.lenght < 3 ) {
+				document.getElementById('caixa').style.backgroundColor = 'red';
+			} else {
+				document.getElementById('caixa').style.backgroundColor = 'green';
+			};
+				
+		};
+
+
+	</script>
+
+</head>
+<body>
+
+	<input id="caixa" type="text" onfocus='on("yellow")' onkeyup="contador()" onblur='contador()' >
+
+
+
+<script >
+	
+	
+</script>
+</body>
+</html>
+<!--  -->

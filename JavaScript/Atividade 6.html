@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+
+	<script >
+
+		document.write('<br /><br /><hr />')
+		document.write('<hr />')
+	</script>
+
+</head>
+<body>
+
+	
+	<input onkeyup="contador()" id="item" type="text">
+
+	<button onclick="aciona()" type="button">Adicionar</button>
+
+	<button onclick="ordena()" type="button">Ordernar</button>
+
+
+<script >
+
+
+
+	var objetos = ['cadeira', 'impressora', 'garfo'];
+
+
+
+	var palavra = ""
+
+
+
+	function contador () {
+
+			var caracteres = document.getElementById('item').value; 
+
+			console.log(caracteres);
+			
+			return palavra = caracteres 
+		};
+
+
+	function aciona () {
+		if (palavra === ""){
+			alert('Informe um valor válido');
+		} else if (objetos.indexOf(palavra) !== -1  ) {
+			alert("Objeto já foi adicionado")
+		} else if (objetos.indexOf(palavra) === -1) {
+			objetos.push(palavra);
+			console.log(objetos);
+			document.getElementById('item').value = '';
+		};
+	};
+
+
+	function ordena() {
+		objetos.sort();
+		console.log(objetos.sort());
+	}
+
+
+
+</script>
+</body>
+</html>
+<!-- -->
