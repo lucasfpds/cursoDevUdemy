@@ -1,0 +1,215 @@
+@charset "UTF-8";
+* {
+  font-size: 30px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 10px;
+}
+
+div {
+  border: 2px solid black;
+  padding: 15px;
+  background-color: lightgray;
+  padding: 15px;
+}
+
+/* ANINHAMENTO */
+.divOne h1 {
+  color: darkblue;
+}
+.divOne a {
+  text-decoration: none;
+  color: darkorchid;
+  font-weight: bold;
+}
+.divOne a:hover {
+  color: lightsalmon;
+}
+
+/* REFERENCIANDO SELETOR */
+p {
+  color: red;
+}
+
+.divTwo p {
+  color: #227501;
+}
+
+/* INTERPOLAÇÃO */
+.textoVermelho {
+  color: red;
+}
+
+/* FOR */
+.item_1 {
+  background-color: tan;
+  color: teal;
+}
+
+.item_2 {
+  background-color: tan;
+  color: teal;
+}
+
+.item_3 {
+  background-color: tan;
+  color: teal;
+}
+
+/* WHILE */
+.item_1 {
+  text-align: center;
+}
+
+.item_2 {
+  text-align: center;
+}
+
+.item_3 {
+  text-align: center;
+}
+
+/* EACH */
+.item_4 {
+  background-color: green;
+  text-align: end;
+}
+
+.item_5 {
+  background-color: yellow;
+  text-align: end;
+}
+
+.item_6 {
+  background-color: red;
+  text-align: end;
+}
+
+/* Funções */
+.col-1 {
+  width: 8.3333333333%;
+  background: green;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+  background: green;
+}
+
+.col-3 {
+  width: 25%;
+  background: green;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+  background: green;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+  background: green;
+}
+
+.col-6 {
+  width: 50%;
+  background: green;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+  background: green;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+  background: green;
+}
+
+.col-9 {
+  width: 75%;
+  background: green;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+  background: green;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+  background: green;
+}
+
+.col-12 {
+  width: 100%;
+  background: green;
+}
+
+/*
+Outras Funções 
+mix(green,orange,50%)
+darken(orange,50%)
+lighten(orange,40%)
+*/
+.alerta {
+  background: #ffedcc;
+  color: yellow;
+}
+
+/*Mixin*/
+h1 {
+  color: green;
+  background: black;
+  padding: 10px 5px;
+}
+
+h2 {
+  color: white;
+  background: black;
+  padding: 10px 5px;
+}
+
+/*Herança*/
+/*Múltiplas diretivas*/
+.classe1, .vermelho {
+  color: red;
+}
+
+.classe2, .vermelho {
+  background: black;
+}
+
+/*
+Encadeamento de diretivas
+Placeholders(%)
+*/
+.erro {
+  color: red;
+}
+
+.erro {
+  background: black;
+}
+
+.erro {
+  padding: 10px;
+  border: 1px solid red;
+}
+
+/*Diretivas de controle*/
+p {
+  color: black;
+}
+
+/*Diretivas de controle e Mixins*/
+body {
+  background: white;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
